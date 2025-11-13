@@ -1,7 +1,6 @@
 import pyrealsense2 as rs
 import numpy as np
 
-
 class DepthCamera:
     """
     Wrapper around Intel RealSense D435 providing aligned depth + color frames.
